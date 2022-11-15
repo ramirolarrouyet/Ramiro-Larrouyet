@@ -1,5 +1,6 @@
 header {
   font-family: "Spectral";
+  font-size: 25px;
   background-image: url(../imgcv/top-view-person-writing-on-laptop-with-copy-space.jpg);
   width: 100%;
   height: 33vh;
@@ -10,6 +11,7 @@ header div {
   text-align: center;
   text-shadow: 0.4px 0.4px blueviolet;
   font-weight: bold;
+  font-size: 20px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -17,12 +19,20 @@ header div {
   margin: auto;
 }
 
-header div p {
-  font-family: "Spectral", serif;
-}
-
 .paragraph {
   font-family: "Source Sans Pro";
+}
+
+.videoIndexOne {
+  margin-top: 30px;
+}
+
+.videoIndexTwo {
+  margin-top: 30px;
+}
+
+.videoCreative {
+  margin-top: 30px;
 }
 
 footer {
@@ -30,15 +40,31 @@ footer {
   background-color: #3373e1;
   text-align: center;
   margin-left: none;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 200%;
 }
-
-.resume {
+footer a {
   display: inline;
   font-family: "Source Sans Pro";
   text-decoration: none;
   color: #bb83e3;
+}
+
+form {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+form div {
+  padding: 10px;
+}
+form div button {
+  height: 80px;
+  width: 100px;
+  margin-top: 20px;
+  font-size: 200px;
+  transform: translate(600px);
 }
 
 body {
@@ -53,10 +79,6 @@ nav div a img {
 .photographOne {
   height: 400px;
   width: 400px;
-}
-
-.videoUno {
-  margin-top: 10px;
 }
 
 .item {
@@ -114,10 +136,6 @@ nav div a img {
   height: 350px;
   width: 350px;
   transition: all 5s;
-}
-
-.videoIndex {
-  margin-top: 30px;
 }
 
 .divDos {

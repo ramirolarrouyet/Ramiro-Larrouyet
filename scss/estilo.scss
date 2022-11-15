@@ -1,6 +1,8 @@
 @import "header";
 @import "paragraph";
+@import "videos";
 @import "footer";
+@import "form";
 
 body { 
   background-color: #688acaff;
@@ -14,10 +16,6 @@ nav div a img {
 .photographOne {
   height: 400px;
   width: 400px;
-}
-
-.videoUno {
-  margin-top: 10px;
 }
 
 .item {
@@ -81,10 +79,6 @@ nav div a img {
     width: 350px;
     transition: all 5s;
   }
-}
-
-.videoIndex {
-    margin-top: 30px;
 }
 
 .divDos {
