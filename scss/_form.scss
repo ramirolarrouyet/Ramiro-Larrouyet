@@ -1,3 +1,6 @@
+@import "mixin";
+
+
 form {
     margin-top: 5px;
     padding: 10px;
@@ -9,10 +12,9 @@ form {
     
         button {
             height: 80px;
-            width: 100px;            
+            width: 100px;         
             margin-top: 20px;
-            font-size: 200px;
             transform: translate(600px);
         }
- }
+    }
 }

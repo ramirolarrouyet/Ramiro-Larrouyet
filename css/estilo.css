@@ -5,6 +5,7 @@ header {
   width: 100%;
   height: 33vh;
   position: relative;
+  margin-top: 20px;
 }
 header div {
   position: absolute;
@@ -19,8 +20,9 @@ header div {
   margin: auto;
 }
 
-.paragraph {
-  font-family: "Source Sans Pro";
+.container p {
+  font-size: bold;
+  font-family: "Times New Roman";
 }
 
 .videoIndexOne {
@@ -63,7 +65,6 @@ form div button {
   height: 80px;
   width: 100px;
   margin-top: 20px;
-  font-size: 200px;
   transform: translate(600px);
 }
 
@@ -74,11 +75,6 @@ body {
 nav div a img {
   height: 25px;
   width: 25px;
-}
-
-.photographOne {
-  height: 400px;
-  width: 400px;
 }
 
 .item {
@@ -138,11 +134,23 @@ nav div a img {
   transition: all 5s;
 }
 
-.divDos {
+.divCreativeOne img {
+  height: 400px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.divCreativeTwo p {
+  border: solid 5px #bb83e3;
   text-align: center;
-  border: 3px solid gray;
+  font-size: 30px;
   padding: 10px;
   margin-block-end: 0;
+  margin-top: 20px;
+}
+
+.divCreativeThree {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
