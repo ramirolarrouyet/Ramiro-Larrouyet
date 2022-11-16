@@ -1,6 +1,6 @@
 @import "mixin";
 
 .container {
-    p {@include parrafos
-}
+    p { @include parrafos;
+ }
 }
