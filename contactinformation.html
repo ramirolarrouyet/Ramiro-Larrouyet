@@ -17,6 +17,7 @@
     
 <body>
 
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -46,26 +47,27 @@
           </div>
         </div>
       </nav>
+      </div>
 
-      <form>
-
-      <div class="mb-3">
+      <form class="container">
+        <div class="row">
+      <div class="col-12 mb-3">
         <label for="exampleFormControlInput1" class="form-label">Full Name</label>
         <input type="text" class="form-control" id="exampleFormControlInput1">
       </div>
 
-      <div class="mb-3">
+      <div class="col-12 mb-3">
         <label for="exampleFormControlInput2" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
       </div>
 
-      <div class="mb-3">
+      <div class="col-12 mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Write your message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
 
-      <div>
-      <button type="button, submit" class="btn btn-warning">Send</button>
+      <div class="col-12 mb-3">
+      <button type="button, submit" class="btn btn-warning col-12">Send</button>
       </div>
 
       </form>
