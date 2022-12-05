@@ -1,24 +1,17 @@
-@import "header";
 @import "paragraph";
 @import "videos";
 @import "footer";
 @import "form";
 @import "variables";
 @import "mixin";
+@import "navbar";
+@import "homeimage";
+@import "cards";
+
 
 body { 
-  background-color: #688acaff;
-}
-
-nav { 
-   div {
-       a {
-        img {
-           height: 25px;
-           width: 25px;
-     }
-    }
-  }
+  background-color: lightgray;
+  margin: 0;
 }
 
 .item {

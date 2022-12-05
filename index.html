@@ -15,21 +15,15 @@
     <title> Ramiro Larrouyet </title>
     <link rel= "shortcut icon" href="imgcv/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href=
-    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
     
 <body>
-    
-<header>
-    <div>
-    <h1> Ramiro Larrouyet </h1>
-    <p> Everything you need, at once, at the same time </p>
-    </div>
-</header>
-  
-<nav class="navbar navbar-expand-lg bg-light">
+
+  <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="imgcv/favicon.png" class="img-fluid">
@@ -59,45 +53,34 @@
     </div>
   </nav>
 
-<section class="container">
+<div class="bg home"></div>
+<div class="bg-text container">
+  <h1 data-aos="zoom-in">Ramiro Larrouyet</h1>
+</div> 
 
-<div class="row">
-
- <div class="col-x1-4 col-md-6 col-sm-12">
-      <iframe class= videoIndexOne width="375" height="270" src="https://www.youtube.com/embed/ezPB2ilr9OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
- </div>
-
- <div class="col-x1-4 col-md-6 col-sm-12">
-  <div class="item cajaA">
-   <p class="parapraghIndex"> Ramiro is learning HTML and CSS. It is difficult, but he likes it. He learns <b>a bit more.</b> Ramiro studies <em> web developing </em> <strong> at Coderhouse. </strong> He is forcing his brain to learn.</p>
+<section class="container custom-section">
+  <div class="row">
+   <div class="col-md" data-aos="flip-right" data-aos-offset= "400" data-aos-duration="500">
+    <img src="imgcv/f35360a5066b64ce1b66a6436be356a4.jpg" class="img-fluid" alt="swimming towards an eye">
+   </div>
+  <div class="cardBody col-md">
+    <p class="cardText">I have been working very hard to build everything you can see and click on. Feel free to play with my website.
+    </p>
   </div>
  </div>
-
-<div class="col-x1-4 col-md-6 col-sm-12">
-  <div class="item cajaB">
-   <p class="parapraghIndex"> Though it is difficult, he wants to learn more and more because he finds the classes and material quite interesting. Samuel makes him laugh too. </p>
- </div>
-</div>
-
-<div class="col-x1-4 col-md-6 col-sm-12">
-  <iframe class= videoIndexTwo width="250" height="270" src="https://www.youtube.com/embed/ezPB2ilr9OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-</div>
-
-<div class="col-x1-4 col-md-6 col-sm-12">
-  <div class="item cajaC">
-   <p class="parapraghIndex"> Though it is difficult, he wants to learn more and more because he finds the classes and material quite interesting. Samuel makes him laugh too. </p>
- </div>
-</div>
-
-<div class="col-x1-4 col-md-6 col-sm-12">
-  <div class="item cajaD">
-   <p class="parapraghIndex"> Though it is difficult, he wants to learn more and more because he finds the classes and material quite interesting. Samuel makes him laugh too. </p>
- </div>
-</div>
-
-</div>
-
 </section>
+
+<section class="container custom-section">
+  <div class="row">
+    <div class="cardBody col-md">
+      <p class="cardText"> I have been working very hard to build everything you can see and click on. Feel free to play with my website.
+      </p>
+    </div>
+    <div class="col-md" data-aos="flip-left" data-aos-offset="400" data-aos-duration="500">
+     <img src="imgcv/jon-tyson-yulPpoFBNg4-unsplash.jpg" class="img-fluid" alt="woman wearing headphones and sunglasses">
+   </div>
+  </div>
+ </section>
 
 <footer class="bg-dark text-white pt-5 pb-4">
 
@@ -107,7 +90,7 @@
 
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Ramiro Larrouyet </h5>
-        <p> Whatever proeblem you may have, it can be solved with my help.</p>
+        <p> For every problem, there exists its counterpart: a Solution. Let's find it!</p>
       </div>
 
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -123,7 +106,7 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-boold text-warning"> Resume </h5>
           <p>
-            <i class="bi bi-layout-text-window-reverse"></i> <a href="imgcv/cv.pdf" class="resume">Click Here!</a>
+            <i class="bi bi-layout-text-window-reverse"></i> <a href="imgcv/cv.pdf" class="resume" target="_blank"> Click Here!</a>
           </p>
         </div>
 
@@ -133,6 +116,9 @@
   
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>
+  AOS.init();
+</script>
 
     </body>
 
