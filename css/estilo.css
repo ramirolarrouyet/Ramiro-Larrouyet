@@ -4,18 +4,6 @@
   font-size: medium;
 }
 
-.videoIndexOne {
-  margin-top: 30px;
-}
-
-.videoIndexTwo {
-  margin-top: 30px;
-}
-
-.videoCreative {
-  margin-top: 30px;
-}
-
 footer a {
   display: inline;
   font-family: "Source Sans Pro";
@@ -28,6 +16,12 @@ footer .bi {
   border-radius: 3px;
 }
 
+.bg-contact {
+  background-image: url(../imgcv/cat.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 form {
   margin-top: 5px;
   padding: 10px;
@@ -35,9 +29,11 @@ form {
   font-family: "Times New Roman", Times, serif;
 }
 form button {
-  height: 80px;
+  height: 50px;
   width: 50px;
-  margin-top: 20px;
+  margin-top: 55px;
+  padding: 15px;
+  text-align: center;
 }
 
 nav {
@@ -60,7 +56,7 @@ nav div a img {
 }
 
 .home {
-  background-image: url(../imgcv/7ab8f18bda16de3cef08b5d602329b59.jpg);
+  background-image: url(../imgcv/blackhiena.jpg);
   padding: 2px;
 }
 
@@ -83,14 +79,60 @@ nav div a img {
 .custom-section {
   padding: 50px;
   text-align: left;
-  margin-bottom: 1px;
 }
 
 .cardBody {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 10px;
+}
+
+.carousel-item {
+  height: 30rem;
+  background-color: black;
+  background-image: url(../imgcv/cakeone.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.card-header {
+  text-align: center;
   justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e0cf1f;
+}
+
+.bgr {
+  text-align: center;
+  padding: 2px;
+  background-size: cover;
+  height: 80vh;
+  box-sizing: border-box;
+  filter: blur(7px);
+}
+
+.web {
+  background-image: url(../imgcv/umakill.jpg);
+  padding-bottom: 10px;
+}
+
+.bg-textWeb {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Solway", serif;
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
 body {
@@ -147,31 +189,6 @@ body {
 .cajaD {
   background-color: #4761d7;
   margin-top: 30px;
-}
-.cajaD:hover {
-  background-color: #9c5ac7;
-  height: 350px;
-  width: 350px;
-  transition: all 5s;
-}
-
-.divCreativeOne img {
-  height: 400px;
-  width: 400px;
-  margin-top: 20px;
-}
-
-.divCreativeTwo p {
-  border: solid 5px #bb83e3;
-  text-align: center;
-  font-size: 30px;
-  padding: 10px;
-  margin-block-end: 0;
-  margin-top: 20px;
-}
-
-.divCreativeThree {
-  margin-top: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

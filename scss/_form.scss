@@ -1,5 +1,11 @@
 @import "mixin";
 
+.bg-contact {
+    background-image: url(../imgcv/cat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 form {
     margin-top: 5px;
     padding: 10px;
@@ -7,8 +13,10 @@ form {
     font-family: 'Times New Roman', Times, serif;
 
         button {
-            height: 80px;
+            height: 50px;
             width: 50px;         
-            margin-top: 20px;
+            margin-top: 55px;
+            padding: 15px;
+            text-align: center;
         }
     }
