@@ -1,72 +1,14 @@
-@import "paragraph";
 @import "footer";
 @import "form";
 @import "variables";
-@import "mixin";
 @import "navbar";
 @import "homeimage";
 @import "cards";
 @import "carousel";
 @import "webimage";
+@import "creativeimg";
 
 body { 
   background-color: lightgray;
   margin: 0;
 }
-
-.item {
-    text-align: center;
-    display: inline-block;
-    width: 250px;
-    height: 270px;
-    padding: 20px;
-  }
-
-.cajaA {
-  background: linear-gradient(to right, #bb83e3ff, #688acaff);
-  margin-top: 30px;
-  transform: scale(1.6, 1);
-}
-
-.cajaB {
-  background: radial-gradient(#464bd8ff, #9c5ac7ff);
-  margin-top: 30px;
-}
-
-.cajaC {
-  background-color:#464bd8ff;
-  margin-top: 30px;
-  animation-name: animacionCajaC;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 6s;
-  animation-delay: 2s;
-}
-
-@keyframes animacionCajaC {
-  0% {
-    width: 200px;
-  }
-
-  25% {
-    width: 225 px;
-  }
-
-  50% {
-    width: 250px;
-  }
-
-  75% {
-    width: 275px;
-  }
-
-  100% {
-    width: 300px;
-  }
-}
-
-.cajaD {
-  background-color: #4761d7ff;
-  margin-top: 30px;  
-}
-

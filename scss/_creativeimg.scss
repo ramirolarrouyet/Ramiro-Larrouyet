@@ -1,0 +1,35 @@
+.bgc {
+    text-align: center;
+    padding: 2px;
+    background-size: cover;
+    height: 75vh;
+    box-sizing: border-box;
+    filter: blur(7px);
+}
+
+.creative {
+    background-image: url(../imgcv/arm.jpg);
+    padding: 2px;
+}
+
+.bg-textCreative {
+    color: #e0cf1f;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Solway', serif;
+    border: 3px solid #e0cf1f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+   text-decoration: underline;
+   font-weight: bold;
+   font-style: italic;
+}
