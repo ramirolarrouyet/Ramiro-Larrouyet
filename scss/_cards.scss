@@ -1,11 +1,24 @@
+@import "mixin";
+
+.entireCarousel {
+    margin-top: 15px;
+}
+
 .custom-section {
     padding: 50px;
     text-align: center;
+    align-items: center;
 }
 
 .cardBody {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     padding: 10px;
 }
+
+.carouselCard {
+    @include carouselCard; 
+} 
+

@@ -25,7 +25,7 @@ form {
 form button {
   height: 50px;
   width: 50px;
-  margin-top: 55px;
+  margin-top: 54px;
   padding: 15px;
   text-align: center;
 }
@@ -70,22 +70,40 @@ nav div a img {
   text-align: center;
 }
 
+.entireCarousel {
+  margin-top: 15px;
+}
+
 .custom-section {
   padding: 50px;
   text-align: center;
+  align-items: center;
 }
 
 .cardBody {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   padding: 10px;
 }
 
-.carousel-item {
-  height: 30rem;
+.carouselCard {
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid black;
+  height: fit-content;
+  border-radius: 2px;
   background-color: black;
-  background-image: url(../imgcv/cakeone.jpg);
+  color: #e0cf1f;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.carousel-item {
+  height: 26rem;
+  background-color: black;
   background-position: center;
   background-size: cover;
   padding: 10px;
@@ -97,6 +115,30 @@ nav div a img {
   text-transform: uppercase;
   font-weight: bold;
   color: #e0cf1f;
+}
+
+.itemOne {
+  background-image: url(../imgcv/cakeone.jpg);
+}
+
+.itemTwo {
+  background-image: url(../imgcv/caketwo.jpg);
+}
+
+.itemThree {
+  background-image: url(../imgcv/cakethree.jpg);
+}
+
+.itemFour {
+  background-image: url(../imgcv/cakeFour.jpeg);
+}
+
+.itemFive {
+  background-image: url(../imgcv/cakeFive.jpeg);
+}
+
+.itemSix {
+  background-image: url(../imgcv/cakeSix.jpeg);
 }
 
 .bgr {
